@@ -11,9 +11,10 @@
   background-image: url(../images/cover-image-light.png);
 }
 
-.pseudo-element {
-  display: none;
+.theme_light .pseudo-element {
+  visibility: hidden;
 }
+
 
 .theme_light .header__theme-menu-button:hover {
   outline: 1px solid rgba(50, 49, 45, 0.4);
@@ -35,6 +36,10 @@
 
   .page {
     background-image: url(../images/cover-image-light.png);
+  }
+
+  .pseudo-element {
+    visibility: hidden;
   }
 
   .header__theme-menu-button:hover {
